@@ -10,4 +10,6 @@ inputs:
     required: false
 runs:
   using: 'node12'
-  main: 'dist/index.js'
+  main: 'dist/index.js'- name: Gradle Build Action
+    uses: gradle/gradle-build-action@v2.4.2
+    
