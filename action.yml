@@ -14,3 +14,7 @@ outputs:
 runs:
   using: 'node16'
   main: 'dist/index.js'
+- name: Release Changelog Builder
+
+  uses: mikepenz/release-changelog-builder-action@v3.7.1
+
